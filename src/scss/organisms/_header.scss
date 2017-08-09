@@ -1,5 +1,5 @@
 #header.full-header {
-  $c-header: #e8fbff;
+  $c-header: rgba(0, 0, 0, 0);
   $c-menu-trigger: #2f1d0f;
   $nav-font: $ff-lato;
 
@@ -11,18 +11,25 @@
 
     @media screen and (max-width: $width-md) {
       position: relative;
-      border-bottom: #06b7d7 2px solid;
+      border-bottom: none;
     }
   }
 
   #primary-menu > ul {
-    margin-right: 0;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0;
+    margin-right: 15px;
     border-right: none;
 
-    @include nav-color(#2f1d0f, 400);
-    @include nav-color(#066ed7, 700, 1);
-    @include nav-color(#0457ab, 700, 2);
-    @include nav-color(#05869e, 700, 3);
+    @media (min-width: 1200px) {
+      padding: 15px 70px;
+    }
+
+    @include nav-color(#3c4e63, 400);
+    @include nav-color(#117fb6, 700, 1);
+    @include nav-color(#117fb6, 700, 2);
+    @include nav-color(#117fb6, 700, 3);
   }
 
   #primary-menu-trigger {
@@ -33,14 +40,15 @@
   }
 
   #header-wrap {
+    box-shadow: none;
     background-color: $c-header;
     // background-image: url(/assets/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    border-bottom: #06b7d7 2px solid;
+    border-bottom: none;
 
     @media screen and (max-width: $width-md) {
-      background-color: #e8fbff;
+      background-color: rgba(0, 0, 0, 0);
     }
   }
 
@@ -61,7 +69,7 @@
   #logo img {
     padding: 2px;
     // padding-left: 5px;
-    max-width: 240px;
+    // max-width: 240px;
   }
 
   @media screen and (max-width: $width-md) {
@@ -102,12 +110,12 @@
 
   #primary-menu ul li {
     @media screen and (max-width: $width-md) {
-      border-top: 1px solid #06b7d7;
-      background-color: #e8fbff;
+      border-top: 1px solid #eee;
+      background-color: #fff;
       padding-left: 30px;
 
       &:last-child {
-        border-bottom: 1px solid #06b7d7;
+        border-bottom: 1px solid #eee;
       }
     }
   }
@@ -115,7 +123,7 @@
   :not(.static-sticky) #primary-menu ul > li > a {
     // letter-spacing: 1px;
     font-size: 14px;
-    padding: 0 5px;
+    padding: 0 3px;
     text-transform: none;
     transition: padding 0.3s ease;
     font-family: $ff-lato;
@@ -143,20 +151,25 @@
 }
 
 #logo img {
-  height: 75px !important;
+  height: 50px !important;
   transition: height 0.4s ease, opacity 0.3s ease;
 
+  @media (max-width: $width-lg) {
+    height: 40px !important;
+  }
+
   @media (max-width: $width-md) {
-    height: 75px !important;
+    height: 45px !important;
   }
 }
 
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky) #logo {
-  height: 100px !important;
+  height: 110px !important;
 }
 
+// this needs to match #logo img @media (max-width: $width-lg) or the header will break
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-  height: 75px !important;
+  height: 40px !important;
 }

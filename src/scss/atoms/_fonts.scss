@@ -5,13 +5,13 @@
 ----------------------------------------------------------------- */
 
 body {
-  font-family: $ff-lato;
+  font-family: $ff-open;
   color: $c-black;
   line-height: 1;
 }
 
 p {
-  font-family: $ff-lato;
+  font-family: $ff-open;
   margin-bottom: $spacing-sm;
   font-size: 16px;
 }
@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: $ff-lato;
+  font-family: $ff-roboto-slab;
   font-weight: 400;
   //letter-spacing: -1.5px;
 }
