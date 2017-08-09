@@ -1,7 +1,7 @@
 //Overrides for Canvas
 #footer {
   position: relative;
-  background-color: #4b382c;
+  background-color: #0a2f5b;
   border-top: none;
 
   a {
@@ -20,7 +20,7 @@
     }
 
     a {
-      text-decoration: none;
+      text-decoration: underline !important;
 
       &:hover {
         text-decoration: none;

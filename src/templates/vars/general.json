@@ -15,12 +15,12 @@
   "googleMap" : "https://www.google.com/maps/place/2830+Lone+Oak+Rd,+Paducah,+KY+42003/@37.039987,-88.660107,17z/data=!4m5!3m4!1s0x887a1a245243bd35:0x337c348ab7e3a7b9!8m2!3d37.0399787!4d-88.6601072?hl=en-US",
   "socialMediaLinks": [
     {
-      "media": "google-plus",
-      "link": "https://www.google.com/maps/place/2830+Lone+Oak+Rd,+Paducah,+KY+42003/@37.039987,-88.660107,17z/data=!4m5!3m4!1s0x887a1a245243bd35:0x337c348ab7e3a7b9!8m2!3d37.0399787!4d-88.6601072?hl=en-US"
-    },
-    {
       "media": "facebook",
       "link": "https://www.facebook.com/smilesbydrhay/"
+    },
+    {
+      "media": "google-plus",
+      "link": "https://www.google.com/maps/place/2830+Lone+Oak+Rd,+Paducah,+KY+42003/@37.039987,-88.660107,17z/data=!4m5!3m4!1s0x887a1a245243bd35:0x337c348ab7e3a7b9!8m2!3d37.0399787!4d-88.6601072?hl=en-US"
     }
   ]
 }
