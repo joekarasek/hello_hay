@@ -4,7 +4,7 @@
   flex-direction: column;
   //background: $c-white;
   //margin: 30px 0;
-  padding-top: 30px;
+  // padding-top: 30px;
   //padding-bottom: 30px;
 
   @media (max-width: $width-md) {
@@ -31,70 +31,71 @@
     &--wrapper {
       //background-color: #323437;
       text-align: center;
-      // padding-top: 10px;
-      // padding-bottom: 20px;
+      padding-top: 90px;
+      padding-bottom: 20px;
 
       @media (max-width: $width-md) {
         background: none;
       }
     }
-    //max-height: 115px;
-    width: 300px;
+    // max-height: 200px;
+    width: 421px;
   }
 
   &__content {
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   &__doctor {
-    color: #2f1d0f;
+    color: #345a75;
     font-weight: 700;
     line-height: 1;
-    // margin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    font-family: $ff-lato;
+    font-family: $ff-open;
 
-    @include font-size(36px, 34px, 32px, 30px, 28px);
+    @include font-size(32px, 30px, 28px, 26px, 25px);
 
     &--title {
-      color: #2f1d0f !important;
-      font-weight: 400;
+      color: #345a75 !important;
+      font-weight: 700;
+
+      @include font-size(28px, 26px, 24px, 22px, 21px);
     }
   }
 
   &__address {
-    color: #2f1d0f;
+    color: #000;
     font-size: 20px;
-    margin-top: 25px;
-    font-family: $ff-lato;
-    font-weight: 700;
+    margin-top: 20px;
+    font-family: $ff-open;
+    font-weight: 400;
   }
 
   &__map-link {
-    color: #008aa3;
+    color: #345a75;
     text-decoration: underline;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    font-family: $ff-lato;
-    font-weight: 700;
+    font-size: 20px;
+    // letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-family: $ff-open;
+    font-weight: 400;
   }
 
   &__new-patient-text {
-    color: #2f1d0f;
-    font-size: 18px;
+    color: #000;
+    font-size: 24px;
     margin-bottom: 0;
     line-height: 1;
     font-family: $ff-open;
+    letter-spacing: -0.97px;
   }
 
   &__new-patient-number {
     display: block;
     font-size: 40px;
     font-weight: 900;
-    color: #2f1d0f;
+    color: #345a75;
     font-family: $ff-lato;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -112,17 +113,17 @@
     color: #2f1d0f;
     margin-top: 15px;
     line-height: 1;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     font-family: $ff-open;
 
-    //@include font-size(20px, 20px, 20px, 18px, 16px);
+    @include font-size(18px, 18px, 17px, 16px, 16px);
   }
 
   &__existing-patient-number {
     color: #2f1d0f;
     font-family: $ff-open;
 
-    @include font-size(20px, 20px, 20px, 18px, 16px);
+    @include font-size(18px, 18px, 17px, 16px, 16px);
 
     &:hover {
       color: #fff;
@@ -150,14 +151,11 @@
   }
 
   &__welcoming-patients {
-    color: #4b382c;
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 19px;
-
-    @media (min-width: 768px) {
-      font-size: 20px;
-    }
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 24px;
+    letter-spacing: -0.93px;
   }
 
   &__social-media {
@@ -167,24 +165,26 @@
   }
 
   .hours-table {
-    padding-bottom: 20px;
+    padding-bottom: 35px;
+    padding-top: 20px;
 
     h5 {
       line-height: 1;
       margin-bottom: 0;
-      font-weight: 700;
-      font-size: 21px;
-      color: #4b382c;
-      font-family: $ff-lato;
+      font-weight: 400;
+      font-size: 28px;
+      color: #345a75;
+      font-family: $ff-open;
       padding-bottom: 10px;
     }
 
     p {
-      color: #4b382c;
-      font-size: 18px;
+      color: #000;
+      font-size: 20px;
+      letter-spacing: 0.7px;
       line-height: 1;
       margin: 0 auto;
-      font-family: $ff-lato;
+      font-family: $ff-open;
     }
   }
 }
