@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: $ff-open;
+  font-family: $ff-lato;
   font-weight: 400;
   //letter-spacing: -1.5px;
 }
@@ -87,13 +87,13 @@ h1 {
 
 @mixin h2() {
   @include headings();
-  @include font-size(48px, 36px, 34px, 36px, 30px);
+  @include font-size(48px, 36px, 34px, 38px, 36px);
 }
 
 .h2,
 h2 {
   text-transform: none;
-  font-weight: 700;
+  font-family: $ff-roboto-slab;
 
   @include h2();
 
