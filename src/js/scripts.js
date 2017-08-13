@@ -100,7 +100,7 @@
     autoWidth: false,
     nav: false,
     dots: false,
-    margin: 40,
+    margin: 0,
     slideBy: 1,
     responsive: {
       550: {
