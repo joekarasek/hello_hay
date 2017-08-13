@@ -1,6 +1,6 @@
 #section-reviews {
-  background-image: url('/assets/blue-pattern-bg.svg');
-  background-size: 100px !important;
+  background-image: url('/assets/reviewsBG.png');
+  background-size: 300px !important;
   background-repeat: repeat;
   padding-bottom: 45px;
   border-bottom: none;
@@ -10,8 +10,7 @@
     text-align: center;
     margin-top: $spacing-md;
     margin-bottom: 30px;
-    color: #48392e;
-    font-weight: bold;
+    color: #fff;
     letter-spacing: 1.12px;
     line-height: 1.2;
     //text-shadow: 0 2px 4px rgba(230, 236, 255, 0.71);
@@ -43,9 +42,10 @@
     width: 100%;
   }
 
-  @include birdeye-footer(#4b382c, false);
+  @include birdeye-footer(#fff, false);
 
   .bf-spn {
     font-family: $ff-lato;
+    text-decoration: underline;
   }
 }
