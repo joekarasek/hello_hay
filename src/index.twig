@@ -37,9 +37,16 @@
 
         {% include 'organisms/insurance.twig' %}
 
+        {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'cta-three',
+            existingPatients: true,
+            shadow: false,
+            classes: "cta--no-border"
+        } %}
+
         {% include 'organisms/services.twig' %}
 
-        {% include 'organisms/smile-gallery.twig' %}
+        {# {% include 'organisms/smile-gallery.twig' %} #}
         
         {% include 'organisms/forms.twig' %}
 
