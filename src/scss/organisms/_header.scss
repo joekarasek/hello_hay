@@ -52,6 +52,12 @@
     }
   }
 
+  // target header when scrolled down the page (Canvas will add the sticky-header class)
+  &.sticky-header #header-wrap {
+    background-color: #fff;
+    z-index: 1001;
+  }
+
   #logo {
     padding-right: 0;
     margin-right: 0;
@@ -166,7 +172,7 @@
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky) #logo {
-  height: 110px !important;
+  height: 80px !important;
 }
 
 // this needs to match #logo img @media (max-width: $width-lg) or the header will break
