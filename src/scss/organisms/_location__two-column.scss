@@ -1,3 +1,37 @@
+#section-team {
+  background-image: url("/assets/TeamPhotoblock.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+
+  .team--text {
+    color: #fff;
+    font-family: $ff-roboto-slab;
+    font-weight: 400px;
+    padding-top: 100px;
+
+    @include font-size(38px, 30px, 24px, 18px, 16px);
+
+    @media (min-width: 481px) {
+      padding-top: 180px;
+    }
+
+    @media (min-width: 768px) {
+      padding-top: 270px;
+      padding-bottom: 40px;
+    }
+
+    @media (min-width: 992px) {
+      padding-top: 370px;
+      padding-bottom: 70px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    background-position: center 10%;
+  }
+}
+
 #section-location {
   padding-bottom: 60px;
 }
