@@ -31,7 +31,8 @@
       '<img src="assets/services-left.png">',
       '<img src="assets/services-right.png">'
     ],
-    autoHeight: true
+    autoHeight: true,
+    dots: true
   });
   HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two', {
     items: 1,
@@ -150,5 +151,16 @@
       $(target).click();
     });
   });
+
+  $('#modal--implant').on('hidden.bs.modal', function() {
+    var $movie = $('#movie');
+    var parent = $movie.parent();
+
+    parent.empty().append($movie);
+  });
+
+  HelloWorldDevsTysonSteele.stopVideoModal('#modal--sedation', '#sedation-video')
+
+
 
 }(jQuery, HelloWorldDevsTysonSteele));

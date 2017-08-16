@@ -3,17 +3,6 @@
     {
       "doubleWide": false,
       "featured": false,
-      "title": "Implant Dentistry",
-      "titleMobil": "Implant Dentistry",
-      "titleFull": "Implant Dentistry",
-      "image": "implant.jpg",
-      "modalTarget": "implant",
-      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
-        "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
       "title": "Composite Fillings",
       "titleFull": "Composite Fillings",
       "image": "composites.jpg",
@@ -66,15 +55,6 @@
       "image": "cosmetic-mobile.jpg",
       "modalTarget": "cosmetic",
       "text": ["Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!"]
-    },
-    {
-      "doubleWide": false,
-      "featured": true,
-      "title": "Sedation Dentistry",
-      "titleFull": "Sedation Dentistry",
-      "image": "sedation-mobile.jpg",
-      "modalTarget": "sedation",
-      "text": ["Sedation dentistry is an excellent treatment for patients with extensive dental needs, or who are concerned about anxiety, difficulty getting numb, or sensitive teeth."]
     },
     {
       "doubleWide": false,
