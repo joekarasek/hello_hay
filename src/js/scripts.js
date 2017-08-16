@@ -159,6 +159,21 @@
     parent.empty().append($movie);
   });
 
+  $('.video-queue img').each(function(index, element) {
+    $(element).click(function(e) {
+      e.preventDefault();
+
+      $('.video-queue>div').each(function(index, element) {
+        $(element).removeClass('active');
+      });
+
+      $(this).parent().toggleClass('active');
+
+      var newSrc = $(this).attr('data-youtube-embed');
+      $('#active-video').attr('src', newSrc);
+    });
+  });
+
   HelloWorldDevsTysonSteele.stopVideoModal('#modal--sedation', '#sedation-video')
 
 
