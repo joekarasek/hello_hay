@@ -14,50 +14,60 @@
 
             <!-- Slide
             ============================================= -->
-             <div class="swiper-slide slide1" style="background: url('assets/slide1.jpg') 50% 50% no-repeat; background-size: cover;">
+            <div class="swiper-slide slide1" style="background: url('assets/slide1.jpg') 50% 50% no-repeat; background-size: cover;">
                 <div class="container clearfix">
-                    <div class="slider-caption slider-caption-left">
-                        <h1 class="slide__title">Dentistry</h1>
-                        <h1 class="slide__title-for">For&nbsp;the&nbsp;whole</h1>
-                        <h1 class="slide__title-family">Family</h1>
-                        <h4 class="slide__copy">Now Welcoming New Patients</h4>
+                    <div class="slider-caption slider-caption-left center">
+                        <img src="/assets/slide1-text.svg" alt="Dentistry for the Whole Family">
+                        <h4 class="slide__copy">Now Welcoming <strong>New Patients</strong></h4>
                         <a href="#" class="btn" data-scrollto="#section-specials" data-offset="80">New Patient Offers</a>
                     </div>
                 </div>
-            </div> 
+            </div>
 
             <!-- Slide
             ============================================= -->
-             {# <div class="swiper-slide slide2" style="background: url('assets/slide2-bg.jpg') 50% 50% no-repeat; background-size: cover;"> 
+            <div class="swiper-slide slide2" style="background: url('assets/slide2.jpg') 50% 50% no-repeat; background-size: cover;">
                 <div class="container clearfix">
                     <div class="slider-caption slider-caption-left text-left">
-                        <h2 class="slide__title">Read what our<br>Patients&nbsp;are&nbsp;Saying</h2>
-                        <img src="assets/slide-stars.png" alt="Five Stars" class="stars">
-                        <h5 class="copy">“Wonderful professional care, great people, latest technology with the knowledge to make your dental&nbsp;experience unique.” - Jimmie</h5>
-                        <a href="#" class="btn" data-offset="80" data-scrollto="#section-reviews">READ MORE REVIEWS</a>
+                        <h2 class="slide__title">See what our<br>Patients&nbsp;are&nbsp;Saying</h2>
+                        <img src="assets/slide2-stars.png" alt="Five Stars" class="stars">
+                        <h5 class="copy">"My husband and I have been clients at the office of Dr. Hay and his staff since they opened their current office. We are proud to say that THE BEST in Western Kentucky takes care of our teeth!”</h5>
+                        <a href="#" class="btn" data-offset="20" data-scrollto="#section-reviews">READ MORE REVIEWS</a>
                     </div>
-                </div>  
-            </div>    #}
+                </div>
+            </div>
 
             <!-- Slide
             ============================================= -->
-             {# <div class="swiper-slide slide3" style="background: url('assets/slide3-bg.jpg') 50% 50% no-repeat; background-size: cover;">
-                <div class="container clearfix slide-content">
-                    <div class="slider-caption slider-caption-left text-left">
-                        <h2 class="title--no-insure">No Insurance?</h2>
-                        <h3 class="title--sub">Our Patients Don’t Need It!</h3>
-                        <h3 class="preventative-copy">Get your preventive care for<br>a low monthly fee</h3>
-                        <a href="#" class="btn" data-offset="80" data-scrollto="#section-insurance">Learn more</a> 
+            <div class="swiper-slide slide3" style="background: url('assets/slide3.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-left">
+                        <img src="/assets/slide3-text.png" alt="Get the Smile you've always Wanted!">
+                        <h4 class="slide__copy">Dr. Hay uses state-or-the-art technology and advanced knowledge<br>for outstanding results. Find out if cosmetic dentistry is right for you!</h4>
+                        <a href="#" class="btn" data-scrollto="#section-services" data-offset="20">Learn More</a>
                     </div>
                 </div>
-            </div>  #}
+            </div>
+
+            <!-- Slide
+           ============================================= -->
+            <div class="swiper-slide slide4" style="background: url('assets/slide4.jpg') 50% 50% no-repeat; background-size: cover;">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-left">
+                        <h1 class="slide__title">No Insurance?</h1>
+                        <h2 class="slide__byline">Our patients don’t need it!</h2>
+                        <h4 class="slide__copy">Get your preventive care<br>for a low monthly fee.</h4>
+                        <a href="#" class="btn" data-scrollto="#section-insurance" data-offset="80">Learn More</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
 
 {% include 'molecules/cta__two-to-one.twig' with {
-    id: 'cta-one',
-    existingPatients: true,
-    downArrow: true
+id: 'cta-one',
+existingPatients: true,
+downArrow: true
 } %}

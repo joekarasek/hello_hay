@@ -4,11 +4,11 @@
   background-color: #0a2f5b;
   width: 100%;
   height: 0;
-  z-index: 1000;
+  z-index: 150;
 
   .wrapper {
     position: absolute;
-    z-index: 1000;
+    z-index: 150;
     left: 0;
     right: 0;
     top: 0;
@@ -135,6 +135,45 @@
 
       &:hover {
         text-decoration: none;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    &#cta-one {
+      height: 100px;
+      background-color: #ededed;
+
+      .wrapper {
+        bottom: 0;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    &#cta-one {
+      height: 140px;
+      background-color: #ededed;
+
+      .wrapper {
+        bottom: 0;
+        transform: translateY(-10%);
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    &#cta-three {
+      .wrapper {
+        transform: translateY(-80%);
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &#cta-three {
+      .wrapper {
+        transform: translateY(-60%);
       }
     }
   }

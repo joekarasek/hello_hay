@@ -129,7 +129,7 @@
   :not(.static-sticky) #primary-menu ul > li > a {
     // letter-spacing: 1px;
     font-size: 14px;
-    padding: 0 3px;
+    padding: 0 5px;
     text-transform: none;
     transition: padding 0.3s ease;
     font-family: $ff-lato;
@@ -152,7 +152,7 @@
   transition: height 0.4s ease, opacity 0.3s ease;
 
   @media (max-width: $width-md) {
-    height: 100px !important;
+    height: 80px !important;
   }
 }
 

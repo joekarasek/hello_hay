@@ -27,10 +27,7 @@
   HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel', {
     items: 1,
     margin: 40,
-    navText: [
-      '<img src="assets/services-left.png">',
-      '<img src="assets/services-right.png">'
-    ],
+    nav: false,
     autoHeight: true,
     dots: true
   });
@@ -42,10 +39,7 @@
     autoplayTimeout: 2000,
     autoplayHoverPause:false,
     autoWidth: false,
-    navText: [
-      '<img src="assets/services-left.png">',
-      '<img src="assets/services-right.png">'
-    ],
+    nav: false,
     dots: false,
     margin: 30,
     slideBy: 1,
@@ -72,10 +66,7 @@
     autoplayTimeout: 2000,
     autoplayHoverPause:false,
     autoWidth: false,
-    navText: [
-      '<img src="assets/services-left.png">',
-      '<img src="assets/services-right.png">'
-    ],
+    nav: false,
     dots: false,
     margin: 30,
     slideBy: 1,
@@ -142,7 +133,7 @@
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
   // ======= Google Maps =======
-  HelloWorldDevsTysonSteele.googleMap('#google-map5', '36.3054821,-95.3133126', '36.3054821,-95.3133126');
+  HelloWorldDevsTysonSteele.googleMap('#google-map5', '37.039987,-88.660107', '37.039987,-88.660107');
 
   $('[data-lightboxpointer^="#thumb"]').each(function(index, element) {
     $(element).click(function(e) {
