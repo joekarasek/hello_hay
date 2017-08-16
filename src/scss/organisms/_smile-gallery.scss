@@ -1,33 +1,30 @@
 #section-gallery {
-  padding: 45px 0;
-  background-image: radial-gradient(circle at center, #fff, #b5f3fa);
-  border-bottom: solid 2px #fff;
+  background-image: url(/assets/smileGalleryBG.png);
+  background-repeat: repeat;
+  padding: 45px 0 30px;
 
-  @media (min-width: 768px) {
-    background-image: none;
-    padding: 0;
-    position: relative;
+  .heading {
+    &__title {
+      margin-bottom: 10px;
+      line-height: 1;
+      color: #fff;
+    }
 
-    .flex-wrapper {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    &__copy {
+      color: #fff;
     }
   }
 
-  .gallery {
-    &__title {
-      color: #4b382c;
-      font-family: $ff-dancing;
-      font-weight: 400;
-      margin-bottom: 10px;
+  .full-width-wrapper {
+    padding: 15px 0 20px;
+    position: relative;
 
-      @include font-size(90px, 72px, 55px, 36px, 50px);
+    .container {
+      position: static;
+    }
+
+    .owl-carousel {
+      position: static;
     }
   }
 }
