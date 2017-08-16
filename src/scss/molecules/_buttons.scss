@@ -39,16 +39,16 @@ button.btn {
 
   &.btn--style-three {
     background-image: none;
-    background-color: #4b382c;
+    background-color: #6584ae;
     color: #fff;
-    border-color: #06b7d7;
+    border-color: #fff;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
 
     @include font-size(16px, 16px, 14px, 14px, 14px);
 
     &:hover,
     &:focus {
-      background-color: lighten(#4b382c, 10%);
+      background-color: lighten(#6584ae, 10%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }

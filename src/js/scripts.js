@@ -115,16 +115,25 @@
       }
     }
   });
-  HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
-    items: 1,
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-smile-carousel', {
+    items: 2,
     autoplay: true,
     navText: [
-      '<img src="assets/arrow-left.png">',
+      '<img src="assets/left-arrow.png">',
       '<img src="assets/right-arrow.png">'
     ],
     responsive: {
       550: {
-        items: 2
+        items: 3
+      },
+      768: {
+        items: 4
+      },
+      992: {
+        items: 5
+      },
+      1200: {
+        items: 6
       }
     },
     margin: 30
@@ -134,10 +143,12 @@
   // ======= Google Maps =======
   HelloWorldDevsTysonSteele.googleMap('#google-map5', '36.3054821,-95.3133126', '36.3054821,-95.3133126');
 
-  $('#gallery-btn').click( function(e) {
-    e.preventDefault();
-    $('#gallery-target').click();
+  $('[data-lightboxpointer^="#thumb"]').each(function(index, element) {
+    $(element).click(function(e) {
+      e.preventDefault();
+      var target = $(this).attr('data-lightboxpointer');
+      $(target).click();
+    });
   });
 
 }(jQuery, HelloWorldDevsTysonSteele));
-

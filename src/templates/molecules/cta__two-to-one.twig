@@ -6,6 +6,9 @@
 #}
 <div class="cta {{ classes ?: '' }}" {% if id %}id="{{ id }}"{% endif %}>
     <div class="wrapper">
+        {% if downArrow %}
+            {% include 'atoms/down-arrow.twig' %}
+        {% endif %}
 
         <div class="container center">
             <div class="flex-wrapper">
