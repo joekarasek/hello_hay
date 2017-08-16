@@ -2,69 +2,50 @@
   "services":[
     {
       "doubleWide": false,
-      "featured": false,
-      "title": "Composite Fillings",
-      "titleFull": "Composite Fillings",
-      "image": "composites.jpg",
-      "modalTarget": "composites",
-      "text": ["The common silver filling contains mercury. Dr. Smith uses the highest-quality biocompatible, tooth-colored restorations to create healthy, beautiful smiles.​ Since the composite material adheres directly to the tooth enamel, less preparation of the tooth is required before using it. This means it is more durable and provides a more natural-looking result."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Smile Whitening",
-      "titleFull": "Smile Whitening",
-      "image": "whitening.jpg",
-      "modalTarget": "whitening",
-      "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
-        "Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Preventive Care",
-      "titleFull": "Prevention & Gum Care",
-      "image": "preventive.jpg",
-      "modalTarget": "preventive",
-      "text": ["By actively preventing disease and decay through regular home care, professional dental cleanings and regular exams, you will maintain a healthy, beautiful smile for life."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Sealants",
-      "titleFull": "Sealants",
-      "image": "sealants.jpg",
-      "modalTarget": "sealants",
-      "text": ["Normal pits and grooves on the chewing surfaces of back teeth can trap food that can’t easily be removed with brushing. A sealant is a tough tooth-colored material that is designed to bond to tooth enamel. These sealants are painted on to the tooth surface to seal these pits and grooves and protect against decay. We recommend applying these to children’s teeth once they have permanent back teeth in place. They can also be useful to adults in some situations."]
-    },
-    {
-      "doubleWide": false,
-      "featured": false,
-      "title": "Digital X-Rays",
-      "titleFull": "Digital X-Rays (or Digital Radiography)",
-      "image": "digital-xray.jpg",
-      "modalTarget": "xrays",
-      "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the environment.",
-        "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
-    },
-    {
-      "doubleWide": false,
-      "featured": true,
-      "title": "Smile Makeovers",
-      "titleFull": "Smile Makeovers",
-      "image": "cosmetic-mobile.jpg",
-      "modalTarget": "cosmetic",
-      "text": ["Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!"]
-    },
-    {
-      "doubleWide": false,
       "featured": true,
       "title": "Family Care",
       "titleFull": "Care for the Family Care",
-      "image": "family-care-mobile.jpg",
-      "modalTarget": "care",
+      "image": "family-care.jpg",
+      "modalTarget": "family",
       "text": ["From toddlers to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help them develop great oral habits that will last them a lifetime.",
         "Join us today and discover how our practice can help treat your entire family."]
+    },
+    {
+      "doubleWide": false,
+      "featured": true,
+      "title": "Porcelain Crowns & Bridges",
+      "titleFull": "Porcelain Crowns & Bridges",
+      "image": "crowns.jpg",
+      "modalTarget": "crowns",
+      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
+        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
+    },
+    {
+      "doubleWide": false,
+      "featured": true,
+      "title": "Sleep Apnea Treatment",
+      "titleFull": "Sleep Apnea Treatment",
+      "image": "apnea.jpg",
+      "modalTarget": "apnea",
+      "text": ["Obstructive sleep apnea occurs when the airway completely collapses, blocking airflow into the lungs. The harder one tries to breathe, the tighter the airway seals. This airway obstruction persists until the brain partially awakens the person, unconsciously closing the jaw and returning the tongue and throat to a normal position."]
+    },
+    {
+      "doubleWide": false,
+      "featured": true,
+      "title": "Cosmetic Dentures",
+      "titleFull": "Cosmetic Dentures",
+      "image": "dentures.jpg",
+      "modalTarget": "dentures",
+      "text": ["A well made denture is not only comfortable and functions properly; it also allows the wearer to smile with confidence, knowing that their smile is no different than it would be with natural teeth. Creating a cosmetic denture is really an art in the hands of a skilled dentist like Dr. Hay."]
+    },
+    {
+      "doubleWide": false,
+      "featured": true,
+      "title": "Oral Systemic Connection",
+      "titleFull": "The Oral Systemic Link",
+      "image": "oral-systemic.jpg",
+      "modalTarget": "oral",
+      "text": ["Having healthy teeth is part of the key to having a healthy body. Periodontal disease, or gum disease, is found in some form in 3 out of 4 Americans with 30% of those cases being more severe. The bacteria in the mouth can enter the rest of the body through saliva, the blood stream and aspiration into the lungs. Thus, increasing risk of coronary heart disease, stroke, abnormal birth weights, diabetes and kidney problems."]
     }
   ]
 }

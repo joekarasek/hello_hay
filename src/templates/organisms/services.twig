@@ -17,42 +17,57 @@
         <div class="heading">
             <div class="container">
                 <h2 class="heading__title">Our Services</h2>
-                <p class="heading__copy">Learn more about our treatments and services.</p>
+                <h5 class="heading__copy">Learn more about our treatments and services.</h5>
             </div>
         </div>
 
-        <div class="services-second-carousel full-width-wrapper hidden-xs">
-            <div class="container full-width">
-                <div class="owl-carousel js-services-carousel--two">
-                    {% for service in services %}
-                        <div class="services-carousel__item">
-                            <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><div class="services-carousel--image"><img src="assets/services/{{ service.image }}" alt="Service Image"></div></a>
-                            <div class="services-carousel__title">
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h5>{{ service.title }}</h5></a>
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h6>Learn More</h6></a>
+        <div class="fluid-container services-grid">
+            <div class="row services-grid__flex--one">
+                <div class="col-sm-6">
+                    <div class="service-card">
+                        <img data-target="#modal--family" data-toggle="modal" src="/assets/services/family-care.jpg" alt="Family Care Dental Service">
+                        <div class="service-card--family">
+                            <h5 data-target="#modal--family" data-toggle="modal" class="service-card__title allow-orphan">Family Care</h5>
+                            <a href="#" data-target="#modal--family" data-toggle="modal" class="service-card__learn-more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 services-grid__flex--two">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="service-card service-card--small">
+                                <img src="/assets/services/dentures.jpg" alt="Cosmetic Dentures" data-target="#modal--dentures" data-toggle="modal">
+                                <h5 data-target="#modal--dentures" data-toggle="modal" class="service-card__title allow-orphan">Cosmetic Dentures</h5>
+                                <a href="#" data-target="#modal--dentures" data-toggle="modal" class="service-card__learn-more">Learn More</a>
                             </div>
                         </div>
-                    {% endfor %}
+                        <div class="col-xs-6">
+                            <div class="service-card service-card--small">
+                                <img src="/assets/services/apnea.jpg" alt="Sleap Apnea" data-target="#modal--apnea" data-toggle="modal">
+                                <h5 data-target="#modal--apnea" data-toggle="modal" class="service-card__title">Sleep Apnea</h5>
+                                <a href="#" data-target="#modal--apnea" data-toggle="modal" class="service-card__learn-more">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="service-card service-card--small">
+                                <img src="/assets/services/crowns.jpg" alt="Crowns and Bridges" data-target="#modal--crowns" data-toggle="modal">
+                                <h5 data-target="#modal--crowns" data-toggle="modal" class="service-card__title">Crowns and Bridges</h5>
+                                <a href="#" data-target="#modal--crowns" data-toggle="modal" class="service-card__learn-more">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="service-card service-card--small">
+                                <img src="/assets/services/oral-systemic.jpg" alt="Oral Systemic Connection" data-target="#modal--oral" data-toggle="modal">
+                                <h5 data-target="#modal--oral" data-toggle="modal" class="service-card__title allow-orphan">Oral Systemic Connection</h5>
+                                <a href="#" data-target="#modal--oral" data-toggle="modal" class="service-card__learn-more">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="services-second-carousel--mobile full-width-wrapper hidden-sm hidden-md hidden-lg">
-            <div class="container full-width">
-                <div class="owl-carousel js-services-carousel--two-mobile">
-                    {% for service in services if not service.featured %}
-                        <div class="services-carousel__item">
-                            <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><div class="services-carousel--image"><img src="assets/services/{{ service.image }}" alt="Service Image"></div></a>
-                            <div class="services-carousel__title">
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h5>{{ service.title }}</h5></a>
-                                <a href="#" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}"><h6>Learn More</h6></a>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-
     </div>
 
     {% include 'molecules/services__modals.twig' %}

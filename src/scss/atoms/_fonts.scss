@@ -127,7 +127,7 @@ h4 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(24px, 23px, 23px, 24px, 23px);
+  @include font-size(24px, 20px, 18px, 22px, 20px);
 }
 
 .h5,

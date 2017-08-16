@@ -5,12 +5,10 @@
   }
 
   .heading {
-    background-color: #7b6353;
     text-align: center;
 
     &__title {
       color: #fff;
-      padding-top: $spacing-md;
       margin-bottom: 5px;
       line-height: 1;
     }
@@ -76,6 +74,7 @@
     }
 
     &__title {
+      color: #1e5879;
       margin-bottom: 15px;
       line-height: 1.2;
       font-weight: 400;
@@ -137,21 +136,6 @@
     background-color: #1a465f;
   }
 
-  .services-part-two {
-    padding: 15px 0 60px;
-    background-image: url(/assets/brown-pattern.svg);
-    background-repeat: repeat;
-    background-size: 100px;
-
-    .heading {
-      background: none;
-
-      &__title {
-        color: #36c4de;
-      }
-    }
-  }
-
   .services-carousel {
     position: relative;
   }
@@ -180,6 +164,87 @@
         line-height: 1;
         margin-bottom: 0;
         text-decoration: underline !important;
+      }
+    }
+  }
+
+  .services-part-two {
+    padding: 15px 0 30px;
+
+    .heading {
+      background-color: #fff;
+
+      &__title {
+        margin-bottom: 5px;
+        line-height: 1;
+        color: #1e5879;
+      }
+
+      &__copy {
+        color: #428cb3;
+        font-family: $ff-open;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .service-card {
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+
+    &--small {
+      @media (min-width: 768px) {
+        padding: 0 0 15px 10px;
+      }
+    }
+
+    &__title {
+      font-family: $ff-open;
+      color: #1d5575;
+      font-weight: 700;
+      margin: 5px 0;
+      padding: 0 8px;
+
+      @include font-size(24px, 20px, 15px, 20px, 17px);
+    }
+
+    &__learn-more {
+      margin-bottom: 0;
+      padding-bottom: 10px;
+      font-weight: 600;
+      font-style: italic;
+      font-family: $ff-open;
+      color: #f06223;
+      text-decoration: underline !important;
+      font-size: 14px;
+    }
+
+    &--family {
+      position: absolute;
+      bottom: 15px;
+      right: 0;
+      text-align: right;
+      padding: 5px 15px 15px 30px;
+      background-color: #0a2f5b;
+
+      .service-card__title {
+        color: #fff;
+        padding: 0;
+      }
+    }
+  }
+
+  .services-grid {
+    @media (min-width: 768px) {
+      &__flex--one {
+        display: flex;
+      }
+
+      &__flex--two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
     }
   }
