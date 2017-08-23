@@ -29,12 +29,22 @@
       }
     }
 
+    &__read-more {
+      color: #3c88b0;
+      text-decoration: underline !important;
+
+      &:active,
+      &:hover {
+        color: #3c88b0;
+      }
+    }
+
     &__copy {
       color: #414b4d;
     }
 
     @media (min-width: 768px) {
-      margin: -40px 0;
+      margin: -30px 0;
 
       &__name {
         padding-top: 0;

@@ -16,11 +16,16 @@
   }
 
   #primary-menu > ul {
-    padding: 15px 30px;
+    padding: 15px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 0;
-    margin-right: 15px;
+    margin-right: 5px;
     border-right: none;
+
+    @media (min-width: 1050px) {
+      padding: 15px 30px;
+      margin-right: 15px;
+    }
 
     @media (min-width: 1200px) {
       padding: 15px 70px;
@@ -159,14 +164,6 @@
 #logo img {
   height: 50px !important;
   transition: height 0.4s ease, opacity 0.3s ease;
-
-  @media (max-width: $width-lg) {
-    height: 40px !important;
-  }
-
-  @media (max-width: $width-md) {
-    height: 45px !important;
-  }
 }
 
 #header.sticky-header:not(.static-sticky),
@@ -177,5 +174,5 @@
 
 // this needs to match #logo img @media (max-width: $width-lg) or the header will break
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-  height: 40px !important;
+  height: 50px !important;
 }

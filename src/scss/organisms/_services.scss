@@ -28,6 +28,10 @@
   .services-slide {
     position: relative;
 
+    > img {
+      max-width: 50vw;
+    }
+
     &__text {
       position: absolute;
       top: 0;
